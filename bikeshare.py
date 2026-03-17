@@ -13,7 +13,6 @@ def is_valid_input(i) -> bool:
         i = str(i)
         return not i.isnumeric()
     except ValueError as e:
-        print(e)
         return False
 
 def is_valid_city(city: str) -> bool:

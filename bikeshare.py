@@ -223,7 +223,7 @@ def main():
             print("\nYour selections returned an empty dataset.")
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        if restart.strip().lower() != 'yes':
             break
 
 # Entry point to the script

@@ -227,5 +227,6 @@ def main():
         if restart.lower() != 'yes':
             break
 
+# Entry point to the script
 if __name__ == "__main__":
     main()
